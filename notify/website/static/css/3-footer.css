@@ -1,0 +1,36 @@
+footer.nav-footer {
+  padding: 4rem 0;
+  background-color: #313131;
+  color: #fff;
+}
+
+footer .sitemap {
+  margin-bottom: 1rem;
+  padding-bottom: 3rem;
+  border-bottom: 1px solid rgb(102, 102, 102);
+}
+
+@media only screen and (min-width: 736px) {
+  footer .sitemap {
+    margin: 0 2rem 3rem;
+  }
+}
+
+footer .copyright {
+  text-align: left;
+  max-width: 1080px;
+  margin: 0 auto 3rem;
+}
+
+@media screen and (max-width: 735px) {
+  footer .copyright {
+    margin: 0 2rem 3rem;
+    width: calc(100% - 4em);
+  }
+}
+
+@media only screen and (min-width: 736px) {
+  footer .copyright {
+    margin: 0 2rem 3rem;
+  }
+}

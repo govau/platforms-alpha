@@ -1,0 +1,19 @@
+{
+  "docs": {
+    "Getting started": ["overview", "installation"],
+    "Concepts": ["architecture"],
+    "Trusted Digital Identity Framework": [
+      "tdif-overview",
+      "tdif-accreditation-process",
+      "tdif-authentication-credential-requirements",
+      "tdif-fraud-control-requirements",
+      "tdif-identity-proofing-requirements",
+      "tdif-privacy-requirements",
+      "tdif-protective-security-requirements",
+      "tdif-risk-management-requirements",
+      "tdif-usability-and-accessibility-requirements",
+      "tdif-protective-security-reviews",
+      "tdif-stakeholder-and-community-feedback-summary"
+    ]
+  }
+}

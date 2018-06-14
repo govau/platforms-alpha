@@ -1,0 +1,16 @@
+{
+  "scripts": {
+    "start": "cross-env NODE_PATH=\"../../lib/\" docusaurus-start",
+    "build": "cross-env NODE_PATH=\"../../lib/\" docusaurus-build",
+    "write-translations": "docusaurus-write-translations",
+    "version": "docusaurus-version",
+    "rename-version": "docusaurus-rename-version",
+    "examples": "docusaurus-examples"
+  },
+  "devDependencies": {
+    "docusaurus": "^1.2.1"
+  },
+  "dependencies": {
+    "cross-env": "^5.2.0"
+  }
+}

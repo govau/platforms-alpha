@@ -1,0 +1,33 @@
+@media screen and (min-width: 736px) {
+  .navPusher {
+    padding-top: 90px;
+    min-height: calc(100vh - 90px);
+  }
+}
+
+.fixedHeaderContainer {
+  min-height: 90px;
+}
+
+.fixedHeaderContainer header .headerTitleWithLogo {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.fixedHeaderContainer header img {
+  height: 60%;
+}
+
+@media only screen and (min-width: 736px) {
+  .fixedHeaderContainer a,
+  .navigationSlider {
+    height: 74px;
+  }
+  .navigationSlider nav.slidingNav {
+    height: 100%;
+  }
+  .navigationSlider .slidingNav ul {
+    align-items: center;
+    height: 100%;
+  }
+}

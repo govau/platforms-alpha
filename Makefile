@@ -4,7 +4,7 @@ CF_ORG   ?= dta
 CF_SPACE ?= tell-us-once
 CF       ?= cf
 
-DIRS    = lib/shared identity/website message/website notify/website tell/website
+DIRS    = lib/shared identity/website message/website notify/website platforms/website tell/website
 TARGETS = setup build deploy clean
 BUILDS  = $(TARGETS:%=\%.%)
 

@@ -1,0 +1,6 @@
+{
+  "short_name": "Platforms.gov.au",
+  "icons": [],
+  "start_url": "./index.html",
+  "display": "standalone"
+}

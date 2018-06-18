@@ -48,6 +48,7 @@ jobs:
               - identity
               - message
               - notify
+              - platforms
               - tell
   deploy-dev:
     <<: *node

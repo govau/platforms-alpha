@@ -39,7 +39,7 @@ interface Props {}
 const Footer: React.StatelessComponent<Props> = props => (
   <StyledFooter {...props}>
     <Container>
-      <Flex flexWrap="wrap" pt={3} pb={3} px={[2, 2, 3, 0]} align="center">
+      <Flex flexWrap="wrap" pt={3} pb={3} px={[3, 3, 3, 0]} align="center">
         <Box w={[1, 1 / 4]}>
           <Flex flexWrap="wrap" pt={3} pb={2} align="center">
             <Box>

@@ -1,5 +1,6 @@
 import * as React from "react";
 import styled from "styled-components";
+import { util } from "styled-system";
 import { Box, Flex } from "grid-styled";
 
 import Container from "./Container";
@@ -13,7 +14,11 @@ const theme = {
 };
 
 const COALogo = styled.img`
-  height: 4.5rem;
+  height: 2.5rem;
+
+  ${util.breaks()[1]} {
+    height: 4.5rem;
+  }
 `;
 
 const StyledHeader = styled.header`
@@ -28,9 +33,13 @@ const StyledHeader = styled.header`
 const Title = styled.h1`
   display: inline-block;
   margin: 0 0 0 1rem;
-  font-size: 2.25rem;
+  font-size: 1.5rem;
   font-weight: 700;
   color: #fff;
+
+  ${util.breaks()[1]} {
+    font-size: 2.25rem;
+  }
 `;
 
 interface Props {}
@@ -38,7 +47,7 @@ interface Props {}
 const Header: React.StatelessComponent<Props> = props => (
   <StyledHeader {...props}>
     <Container>
-      <Box px={[2, 2, 3, 0]}>
+      <Box px={[3, 3, 3, 0]}>
         <Link to="/">
           <Flex alignItems="center">
             <Box>

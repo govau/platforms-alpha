@@ -35,6 +35,9 @@ class Footer extends React.Component {
             <h5>More</h5>
             <a href={this.props.config.baseUrl + "blog"}>Blog</a>
             <a href="https://github.com/govau/platforms-alpha">GitHub</a>
+            <a href="https://platforms-website.apps.y.cld.gov.au/">
+              Platforms.gov.au
+            </a>
           </div>
         </section>
         <section className="copyright">{this.props.config.copyright}</section>

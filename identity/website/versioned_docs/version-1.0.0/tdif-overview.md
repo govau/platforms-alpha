@@ -1,11 +1,12 @@
 ---
-id: tdif-overview
+id: version-1.0.0-tdif-overview
 title: Overview and glossary
+original_id: tdif-overview
 ---
 
 ## Introduction
 
-**Note: this is the latest unpublished version.**
+**Note: this is the first version.**
 
 The Digital Transformation Agency (DTA), in collaboration with other government
 agencies and key private sector bodies, is leading the development of a national

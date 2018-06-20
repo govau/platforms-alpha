@@ -1,0 +1,24 @@
+{
+  "version-1.0.0-docs": {
+    "Getting started": [
+      "version-1.0.0-overview",
+      "version-1.0.0-installation"
+    ],
+    "Concepts": [
+      "version-1.0.0-architecture"
+    ],
+    "Trusted Digital Identity Framework": [
+      "version-1.0.0-tdif-overview",
+      "version-1.0.0-tdif-accreditation-process",
+      "version-1.0.0-tdif-authentication-credential-requirements",
+      "version-1.0.0-tdif-fraud-control-requirements",
+      "version-1.0.0-tdif-identity-proofing-requirements",
+      "version-1.0.0-tdif-privacy-requirements",
+      "version-1.0.0-tdif-protective-security-requirements",
+      "version-1.0.0-tdif-risk-management-requirements",
+      "version-1.0.0-tdif-usability-and-accessibility-requirements",
+      "version-1.0.0-tdif-protective-security-reviews",
+      "version-1.0.0-tdif-stakeholder-and-community-feedback-summary"
+    ]
+  }
+}

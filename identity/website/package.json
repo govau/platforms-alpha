@@ -3,7 +3,7 @@
     "start": "cross-env NODE_PATH=\"../../lib/\" docusaurus-start",
     "build": "cross-env NODE_PATH=\"../../lib/\" docusaurus-build",
     "write-translations": "docusaurus-write-translations",
-    "version": "docusaurus-version",
+    "version": "cross-env NODE_PATH=\"../../lib/\" docusaurus-version",
     "rename-version": "docusaurus-rename-version",
     "examples": "docusaurus-examples"
   },

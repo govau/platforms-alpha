@@ -93,6 +93,22 @@ class App extends React.Component {
                   links={[
                     {
                       href: "https://todo/",
+                      heading: "Pay"
+                    },
+                    {
+                      href: "https://todo/",
+                      heading: "Take and process",
+                      blurb:
+                        "A secure payment service allowing you to take online card payments and issue refunds"
+                    }
+                  ]}
+                />
+              </Box>
+              <Box w={[1, 1, 1 / 3]} pt={[3, 2]} pb={[3, 2]} px={[3, 2]}>
+                <ProductCard
+                  links={[
+                    {
+                      href: "https://todo/",
                       heading: "Marketplace"
                     },
                     {

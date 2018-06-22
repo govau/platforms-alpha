@@ -124,6 +124,21 @@ class App extends React.Component {
                 <ProductCard
                   links={[
                     {
+                      href: "https://cloud.gov.au/",
+                      heading: "Cloud"
+                    },
+                    {
+                      href: "https://cloud.gov.au/",
+                      heading: "Cloud.gov.au",
+                      blurb: "PaaS for apps and backends"
+                    }
+                  ]}
+                />
+              </Box>
+              <Box w={[1, 1, 1 / 3]} pt={[3, 2]} pb={[3, 2]} px={[3, 2]}>
+                <ProductCard
+                  links={[
+                    {
                       href: "https://todo/",
                       heading: "Open data"
                     },
@@ -137,21 +152,6 @@ class App extends React.Component {
                       href: "https://todo/",
                       heading: "Data.gov.au",
                       blurb: "An easy way to find, access and reuse public data"
-                    }
-                  ]}
-                />
-              </Box>
-              <Box w={[1, 1, 1 / 3]} pt={[3, 2]} pb={[3, 2]} px={[3, 2]}>
-                <ProductCard
-                  links={[
-                    {
-                      href: "https://cloud.gov.au/",
-                      heading: "Cloud"
-                    },
-                    {
-                      href: "https://cloud.gov.au/",
-                      heading: "Cloud.gov.au",
-                      blurb: "PaaS for apps and backends"
                     }
                   ]}
                 />

@@ -1,6 +1,12 @@
 {
   "docs": {
-    "Getting started": ["overview", "installation"],
+    "Getting started": [
+      "overview",
+      "installation",
+      "getting-started",
+      "sending-texts",
+      "sending-emails"
+    ],
     "Concepts": ["architecture"]
   }
 }

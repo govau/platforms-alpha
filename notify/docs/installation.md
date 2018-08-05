@@ -5,14 +5,15 @@ title: Installation
 
 ## Installing client libraries
 
-Install the client libraries in your choice of programming language:
+Install the client libraries in your choice of programming language
 
 ```filetabs
-file=docs/installation/get_chsarp.sh lang=shell label=C#
-file=docs/installation/get_go.sh lang=shell label=Go
-file=docs/installation/get_java.md parser=md label=Java
-file=docs/installation/get_nodejs.sh lang=shell label=Node.js
-file=docs/installation/get_php.sh lang=shell label=PHP
 file=docs/installation/get_python.sh lang=shell label=Python
-file=docs/installation/get_ruby.sh lang=shell label=Ruby
 ```
+
+## Unsupported languages
+
+We detail how to roll-your-own client in the [Getting
+started](getting-started.md) section. Together with the `cURL` examples on
+any given page, you should be able to build up a client on your own by
+accessing the REST API directly.

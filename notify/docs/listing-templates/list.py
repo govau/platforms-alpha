@@ -1,0 +1,1 @@
+notifications_client.get_all_templates()

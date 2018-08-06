@@ -5,8 +5,8 @@
       "installation",
       "getting-started",
       "sending-texts",
-      "sending-emails"
-    ],
-    "Concepts": ["architecture"]
+      "sending-emails",
+      "listing-templates"
+    ]
   }
 }

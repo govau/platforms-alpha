@@ -9,8 +9,22 @@ be sent and what personalisation variables each template requires.
 
 ```filetabs
 file=docs/listing-templates/list.py lang=python label=Python
+file=docs/listing-templates/list.java lang=java label=Java
 file=docs/listing-templates/list.sh lang=bash label=cURL
 ```
+
+
+### Arguments
+---
+`template_type`
+
+**Optional**
+
+If omitted, the method returns all templates. Otherwise you can filter by:
+- email
+- sms
+
+
 
 ## Response
 

@@ -9,6 +9,7 @@ The following example shows how to send a single email.
 
 ```filetabs
 file=docs/sending-emails/send.py lang=python label=Python
+file=docs/sending-emails/send.java lang=java label=Java
 file=docs/sending-emails/send.sh lang=bash label=cURL
 ```
 
@@ -49,6 +50,14 @@ For example:
     "amount_owing": "$15.50"
 }
 ```
+
+---
+
+`reference`
+
+**Optional**
+
+A unique identifier you create. This reference identifies a single unique notification or a batch of notifications. If you do not have a reference, you must pass in an empty string or null.
 
 ## Response
 

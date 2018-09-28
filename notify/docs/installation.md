@@ -9,6 +9,8 @@ Install the client libraries in your choice of programming language
 
 ```filetabs
 file=docs/installation/get_python.sh lang=shell label=Python
+file=docs/installation/get_java_gradle.md lang=groovy label=Java-Gradle
+file=docs/installation/get_java_maven.md lang=groovy label=Java-Maven
 ```
 
 ## Unsupported languages

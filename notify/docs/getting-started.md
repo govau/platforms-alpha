@@ -13,6 +13,7 @@ side menu. Enter "API Keys" and generate one for your client.
 
 ```filetabs
 file=docs/getting-started/client.py lang=python label=Python
+file=docs/getting-started/client.java lang=java label=Java
 ```
 
 ## Rolling your own client

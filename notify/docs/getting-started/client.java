@@ -1,3 +1,3 @@
-import au.gov.platforms.notify.NotificationClient;
+import au.gov.notify.NotifyClient;
 
-NotificationClient client=new NotificationClient(apiKey);
+NotifyClient client = new NotifyClient(apiKey);

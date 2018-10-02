@@ -9,6 +9,7 @@ The following example shows how to send a single text message.
 
 ```filetabs
 file=docs/sending-texts/send.py lang=python label=Python
+file=docs/sending-texts/send.java lang=java label=Java
 file=docs/sending-texts/send.sh lang=bash label=cURL
 ```
 
@@ -49,6 +50,14 @@ For example:
     "amount_owing": "$15.50"
 }
 ```
+---
+
+`reference`
+
+**Optional**
+
+A unique identifier you create. This reference identifies a single unique notification or a batch of notifications. 
+
 
 ## Response
 

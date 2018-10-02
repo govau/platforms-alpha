@@ -56,7 +56,7 @@ For example:
 
 **Optional**
 
-A unique identifier you create. This reference identifies a single unique notification or a batch of notifications. If you do not have a reference, you must pass in an empty string or null.
+A unique identifier you create. This reference identifies a single unique notification or a batch of notifications. 
 
 
 ## Response

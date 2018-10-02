@@ -20,9 +20,9 @@ file=docs/listing-templates/list.sh lang=bash label=cURL
 
 **Optional**
 
-If omitted, the method returns all templates. Otherwise you can filter by:
-- email
-- sms
+You can filter by the template type. If provided, valid values are:
+- `email`
+- `sms`
 
 
 
